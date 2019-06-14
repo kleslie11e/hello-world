@@ -1,0 +1,33 @@
+Notes for Installing Git
+
+1. Download a Git installer from http://git-scm.com/downloads
+
+2. Configure username and email address
+	- not used as credentials on any of the git hosting sites
+	- just used to keep record of the work that you do in the version control system
+
+	$ git config --global user.name "myusername"
+
+	$ git config --global user.email "myemail@email.com"
+
+3. Create your first Git repository
+	- use an init statement to create a repository
+
+	$ git init project1
+
+	$ cd project 1
+
+	create file1.txt
+
+	$ git add file1.txt
+
+	$ git commit -m "My first commit"
+
+
+4. Be sure to use '$ git init' to create folder where version control will take place
+
+
+Adding note for visit with Rich
+
+
+
